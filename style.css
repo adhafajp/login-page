@@ -41,6 +41,14 @@ body{
     transition: .6s ease-in-out 1.2s, visibility 0s 1s;
 }
 
+.toggle-password{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
 .container.active .form-box{
     right: 50%;
 }
